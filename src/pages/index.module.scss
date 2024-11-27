@@ -1,0 +1,14 @@
+  // Index.module.scss
+
+.container {
+  display: flex;
+}
+
+.content {
+  padding: 1.25rem; // 5 * 4px
+  flex: 1;
+  background-repeat: repeat;
+  background-size: contain;
+  justify-content: center;
+  overflow: auto;
+  }
