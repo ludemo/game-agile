@@ -6,9 +6,12 @@
 
 .content {
   padding: 1.25rem; // 5 * 4px
+  color: #ffffff;
   flex: 1;
-  background-repeat: repeat;
-  background-size: contain;
+  background-image: url('../assets/wallper.webp');
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: round;
   justify-content: center;
   overflow: auto;
-  }
+}
