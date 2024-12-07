@@ -2,7 +2,7 @@ export const jugadores = [
   {
     name: 'Robert Rodolfo',
     role: 'Backend',
-    xp: 140, // +30 puntos
+    xp: 150, // +30 puntos
     progress: 20,
     badges: [
       { icon: '✅', description: 'Finalizador experto' },
