@@ -1,48 +1,61 @@
 export const jugadores = [
   {
-    name: 'Robert Rodolfo',
-    role: 'Backend',
-    xp: 130, // Sin cambios
-    progress: 20,
-    badges: [
-      { icon: '✅', description: 'Finalizador experto' },
-      { icon: '🏋️', description: 'Pilar del Sprint' },
-    ],
-    rank: 1, // Mantiene el ranking
-    nivel: 18,
-  },
-  {
     name: 'Anthony Juancarlo',
     role: 'Backend',
-    xp: 125, // +10 XP por mentoría
+    xp: 145, // +20 XP
     progress: 66,
     badges: [
       { icon: '🤝', description: 'Colaborador destacado' },
     ],
-    rank: 2, // Subió de ranking
+    rank: 1, // Máximo XPh
     nivel: 18,
   },
   {
     name: 'Lucely Rubi',
     role: 'Frontend',
-    xp: 120, // Sin cambios
-    progress: 50,
+    xp: 130, // +10 XP
+    progress: 100,
     badges: [
       { icon: '🏋️', description: "Pilar del Sprint" },
     ],
-    rank: 3, // Bajó un lugar
+    rank: 4, // Segundo en XP
+    nivel: 18,
+  },
+  {
+    name: 'Robert Rodolfo',
+    role: 'Backend',
+    xp: 130, // Sin cambios
+    progress: 75,
+    badges: [
+      { icon: '✅', description: 'Finalizador experto' },
+      { icon: '🏋️', description: 'Pilar del Sprint' },
+    ],
+    rank: 3, // Tercer en XP
     nivel: 18,
   },
   {
     name: 'Jhon Franklin',
     role: 'Backend',
-    xp: 95, // +10 XP por mentoría
+    xp: 135, // +25 XP
     progress: 33,
     badges: [
       { icon: '✅', description: 'Finalizador experto' },
+      { icon: '🌙', description: 'Noctámbulo del Sprint' }, 
     ],
-    rank: 4, // Mantiene el ranking
+    rank: 2, // Cuarto en XP
     nivel: 18,
+  },
+  {
+    name: 'Maria Margareth',
+    role: 'Lider de proyecto / Tester',
+    xp: 75, // +25 XP
+    progress: 0,
+    badges: [
+      { icon: '🫂', description: 'Más participativo' },
+      { icon: '⭐', description: 'Líder consistente' },
+    ],
+    rank: 5, // Quinto en XP
+    nivel: 15,
   },
   {
     name: 'Rommel',
@@ -50,37 +63,25 @@ export const jugadores = [
     xp: 70, // Sin cambios
     progress: 50,
     badges: [],
-    rank: 5, // Mantiene el ranking
+    rank: 7, // Sexto en XP
     nivel: 18,
   },
   {
     name: 'Alex Antonio',
     role: 'Frontend',
-    xp: 50, // Sin cambios
+    xp: 75, // +25 XP
     progress: 0,
     badges: [],
-    rank: 6, // Mantiene el ranking
+    rank: 6, // Séptimo en XP
     nivel: 10,
   },
   {
     name: 'Glenny Shinderly',
     role: 'Frontend',
-    xp: 30, // Sin cambios
+    xp: 66, // +25 XP
     progress: 33,
     badges: [],
-    rank: 7, // Mantiene el ranking
-    nivel: 15,
-  },
-  {
-    name: 'Maria Margareth',
-    role: 'Lider de proyecto / Tester',
-    xp: 35, // Sin cambios
-    progress: 0,
-    badges: [
-      { icon: '🫂', description: 'Más participativo' },
-      { icon: '⭐', description: 'Líder consistente' },
-    ],
-    rank: 8, // Mantiene el ranking
+    rank: 8, // Último en XP
     nivel: 15,
   },
 ];

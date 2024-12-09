@@ -9,7 +9,7 @@ export default function Score() {
     <>
       <div>
         <h1 style={{ textAlign: 'center' }}>Gestión administrativa CEPREUNSA</h1>
-        <ProjectProgressBar percentage={32.26} projectName="Avance del proyecto" />
+        <ProjectProgressBar percentage={40.25} projectName="Avance del proyecto" />
       </div>
       <div
         style={{
