@@ -103,3 +103,15 @@
     }
   }
 }
+.specialCard {
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 4px 15px rgba(255, 69, 0, 0.8);
+  }
+  to {
+    box-shadow: 0 4px 25px rgba(255, 165, 0, 1);
+  }
+}
