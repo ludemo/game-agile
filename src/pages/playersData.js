@@ -2,31 +2,31 @@ export const jugadores = [
   {
     name: 'Anthony Juancarlo',
     role: 'Backend',
-    xp: 210, // Sin cambios
+    xp: 225, // +15 XP
     progress: 66,
     badges: [
-      { icon: '🤝', description: 'Colaborador destacado'},
-      {icon: '🫂', description: 'Más participativo'  },
+      { icon: '🤝', description: 'Colaborador destacado' },
+      { icon: '🫂', description: 'Más participativo' },
     ],
-    rank: 1, // Segundo en XP
+    rank: 1, // Máximo XP
     nivel: 18,
   },
   {
     name: 'Lucely Rubi',
     role: 'Frontend',
-    xp: 200, // +10 XP
+    xp: 200, // Sin cambios
     progress: 100,
     badges: [
       { icon: '🏋️', description: "Pilar del Sprint" },
       { icon: '⭐', description: "Finalizadora Estrella" },
     ],
-    rank: 2, // Máximo XP
+    rank: 2, // Segundo en XP
     nivel: 18,
   },
   {
     name: 'Jhon Franklin',
     role: 'Backend',
-    xp: 180, // +15 XP
+    xp: 195, // +15 XP
     progress: 33,
     badges: [
       { icon: '✅', description: 'Finalizador experto' },
@@ -38,7 +38,7 @@ export const jugadores = [
   {
     name: 'Robert Rodolfo',
     role: 'Backend',
-    xp: 165, // +15 XP
+    xp: 165, // Sin cambios
     progress: 75,
     badges: [
       { icon: '✅', description: 'Finalizador experto' },
@@ -50,7 +50,7 @@ export const jugadores = [
   {
     name: 'Maria Margareth',
     role: 'Lider de proyecto / Tester',
-    xp: 140, // +10 XP
+    xp: 140, // Sin cambios
     progress: 77,
     badges: [
       { icon: '🫂', description: 'Más participativo' },
@@ -63,7 +63,7 @@ export const jugadores = [
   {
     name: 'Rommel',
     role: 'Frontend',
-    xp: 135, // +10 XP
+    xp: 145, // +10 XP
     progress: 50,
     badges: [
       { icon: '✅', description: 'Finalizador experto' },
@@ -74,7 +74,7 @@ export const jugadores = [
   {
     name: 'Glenny Shinderly',
     role: 'Frontend',
-    xp: 121, // +10 XP
+    xp: 121, // Sin cambios
     progress: 66,
     badges: [],
     rank: 7, // Séptimo en XP
